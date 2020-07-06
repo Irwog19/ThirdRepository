@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="url" value="http://newtours.demoaut.com/index.php"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="firstname2" value="Anish Giritrah"/>
+    <parameter name="cc_firstname" value="Gowri"/>
+    <parameter name="arrivein" value="New York"/>
+    <parameter name="firstname1" value="Gowri"/>
+    <parameter name="expirymonth" value="11"/>
+    <parameter name="departday" value="11"/>
+    <parameter name="returningday" value="12"/>
+    <parameter name="mealtype2" value="Hindu"/>
+    <parameter name="mealtype1" value="Hindu"/>
+    <parameter name="cc_lastname" value="Koyada"/>
+    <parameter name="noofpassengers" value="2"/>
+    <parameter name="password" value="test123"/>
+    <parameter name="departmonth" value="November"/>
+    <parameter name="departfrom" value="London"/>
+    <parameter name="returningmonth" value="December"/>
+    <parameter name="expiryyear" value="2009"/>
+    <parameter name="cc_middlename" value="Shanker"/>
+    <parameter name="lastname2" value="Koyada"/>
+    <parameter name="lastname1" value="Koyada"/>
+    <parameter name="cardtype" value="Visa"/>
+    <parameter name="cardnumber" value="012356789"/>
+    <parameter name="airline" value="Unified Airlines"/>
+    <parameter name="username" value="gowrikoyada@gmail.com"/>
+    <parameter name="expectedurl" value="http://newtours.demoaut.com/mercurypurchase.php"/>
+    <classes>
+      <class name="com.mercury.testcases.TC5">
+        <methods>
+          <include name="test_creditcard" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="basedriver"/>
+        </methods>
+      </class> <!-- com.mercury.testcases.TC5 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

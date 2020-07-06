@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="http://newtours.demoaut.com/index.php"/>
+
+  <test thread-count="5" name="Test">
+
+	<!-- TC1 -->
+  <parameter name="username" value="gowrikoyada@gmail.com"/>
+  <parameter name="password" value="test123"/> 
+   
+  	<!-- TC2 -->
+  <parameter name="noofpassengers" value="2"/>
+  <parameter name= "departfrom" value="London" />
+  <parameter name="departmonth" value="November"/>
+  <parameter name="departday" value="11"/>
+  <parameter name="arrivein" value="New York"/>
+  <parameter name="returningmonth" value="December"/>
+  <parameter name="returningday" value="12"/>
+  <parameter name="airline" value="Unified Airlines"/>
+  
+  	<!-- Tc3 -->
+  <parameter name="expectedurl" value="http://newtours.demoaut.com/mercurypurchase.php"/>
+  	
+  	<!-- TC4 -->   
+  <parameter name="firstname1" value="Gowri"/>
+  <parameter name="lastname1" value="Koyada"/>
+  <parameter name="mealtype1" value= "Hindu"/>
+  <parameter name="firstname2" value="Anish Giritrah"/>
+   <parameter name="lastname2" value="Koyada"/>   
+  <parameter name="mealtype2" value= "Hindu"/>
+  	
+  	<!-- TC5 -->
+  	<parameter name="cardtype" value="Visa"/>
+  	<parameter name="cardnumber" value="012356789"/>
+  	<parameter name="expirymonth" value="11"/>
+  	<parameter name="expiryyear" value="2009"/>
+  	<parameter name="cc_firstname" value="Gowri"/>
+  	<parameter name="cc_middlename" value="Shanker"/>
+  	<parameter name="cc_lastname" value="Koyada"/>
+  	
+  	<!-- TC6 -->
+  	<parameter name="billAddress1" value="54 Clay Hill"/>
+  	<parameter name="billAddress2" value="Two Mile Ash"/>
+  	<parameter name="billCity" value="Milton Keynes"/>
+  	<parameter name="billState" value="England"/>
+  	<parameter name="billZip" value="MK8 8BL"/>
+  	<parameter name="billCountry" value="UNITED KINGDOM"/>
+  	
+  	<!-- TC7 -->
+  	<parameter name="delAddress1" value="Prime Minister Office (PMO)"/>
+  	<parameter name="delAddress2" value="10 Downing Street"/>
+  	<parameter name="delCity" value="London"/>
+  	<parameter name="delState" value="England"/>
+  	<parameter name="delZip" value="SW1A 2AA"/>
+  	<parameter name="delCountry" value="UNITED KINGDOM"/>	
+  	
+  	<!-- TC8 -->
+  	<parameter name="purchaseconfirmationurl" value="http://newtours.demoaut.com/mercurypurchase2.php"/> 	
+  	
+   
+   <classes>
+  <class name="com.mercury.basedriver.Basedriver"/>
+  <class name="com.mercury.testcases.TC1" />
+  <class name="com.mercury.testcases.TC2"/>
+  <class name="com.mercury.testcases.TC3"/>
+  <class name="com.mercury.testcases.TC4"/>
+  <class name="com.mercury.testcases.TC5"/>
+  <class name="com.mercury.testcases.TC6"/>
+  <class name="com.mercury.testcases.TC7"/>
+  <class name="com.mercury.testcases.TC8"/>
+  
+    
+  
+  </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

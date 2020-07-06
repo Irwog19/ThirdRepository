@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="16" total="24" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser initialised and website opened.]]>
+    </line>
+    <line>
+      <![CDATA[User logged in successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Login screesnshot obtained and saved.]]>
+    </line>
+    <line>
+      <![CDATA[Login 'title' validation passed.]]>
+    </line>
+    <line>
+      <![CDATA[Reseved flights and navigated to passenger details page.]]>
+    </line>
+    <line>
+      <![CDATA[Passengers(2) details provided.]]>
+    </line>
+    <line>
+      <![CDATA[Credit card details furnised.]]>
+    </line>
+    <line>
+      <![CDATA[Billing address furnised and ticketless travel clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Alert accepted.]]>
+    </line>
+    <line>
+      <![CDATA[Delivery address furnised and 'same as billing address' clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Reservation image obtained and saved.]]>
+    </line>
+    <line>
+      <![CDATA[Purchase validation is successfully done.]]>
+    </line>
+    <line>
+      <![CDATA[Purchase confirmation image obtained and saved.]]>
+    </line>
+    <line>
+      <![CDATA[Navigated back to home screen.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43993" started-at="2020-06-22T06:47:43 BST" finished-at="2020-06-22T06:48:27 BST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43993" started-at="2020-06-22T06:47:43 BST" finished-at="2020-06-22T06:48:27 BST">
+      <class name="com.mercury.testcases.TC1">
+        <test-method status="PASS" signature="test_login(java.lang.String, java.lang.String)[pri:0, instance:com.mercury.testcases.TC1@7fad8c79]" name="test_login" duration-ms="6313" started-at="2020-06-22T06:47:56 BST" finished-at="2020-06-22T06:48:03 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gowrikoyada@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Login screesnshot obtained and saved.]]>
+            </line>
+            <line>
+              <![CDATA[Login 'title' validation passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+      </class> <!-- com.mercury.testcases.TC1 -->
+      <class name="com.mercury.testcases.TC3">
+        <test-method status="PASS" signature="test_continueandreserveflights(java.lang.String)[pri:0, instance:com.mercury.testcases.TC3@76329302]" name="test_continueandreserveflights" duration-ms="5244" started-at="2020-06-22T06:48:04 BST" finished-at="2020-06-22T06:48:09 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercurypurchase.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Reseved flights and navigated to passenger details page.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_continueandreserveflights -->
+      </class> <!-- com.mercury.testcases.TC3 -->
+      <class name="com.mercury.testcases.TC2">
+        <test-method status="PASS" signature="test_flight(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury.testcases.TC2@71a794e5]" name="test_flight" duration-ms="1077" started-at="2020-06-22T06:48:03 BST" finished-at="2020-06-22T06:48:04 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[November]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[December]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_flight -->
+      </class> <!-- com.mercury.testcases.TC2 -->
+      <class name="com.mercury.testcases.TC8">
+        <test-method status="PASS" signature="test_purchaseandvalidate(java.lang.String)[pri:0, instance:com.mercury.testcases.TC8@11e21d0e]" name="test_purchaseandvalidate" duration-ms="5149" started-at="2020-06-22T06:48:19 BST" finished-at="2020-06-22T06:48:24 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercurypurchase2.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Purchase validation is successfully done.]]>
+            </line>
+            <line>
+              <![CDATA[Purchase confirmation image obtained and saved.]]>
+            </line>
+            <line>
+              <![CDATA[Navigated back to home screen.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_purchaseandvalidate -->
+      </class> <!-- com.mercury.testcases.TC8 -->
+      <class name="com.mercury.testcases.TC5">
+        <test-method status="PASS" signature="test_creditcard(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury.testcases.TC5@4df828d7]" name="test_creditcard" duration-ms="2449" started-at="2020-06-22T06:48:10 BST" finished-at="2020-06-22T06:48:13 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[012356789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2009]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gowri]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Shanker]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Koyada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Credit card details furnised.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_creditcard -->
+      </class> <!-- com.mercury.testcases.TC5 -->
+      <class name="com.mercury.testcases.TC4">
+        <test-method status="PASS" signature="test_passengers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury.testcases.TC4@5e25a92e]" name="test_passengers" duration-ms="1425" started-at="2020-06-22T06:48:09 BST" finished-at="2020-06-22T06:48:10 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gowri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Koyada]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hindu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Anish Giritrah]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Koyada]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hindu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Passengers(2) details provided.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_passengers -->
+      </class> <!-- com.mercury.testcases.TC4 -->
+      <class name="com.mercury.testcases.TC7">
+        <test-method status="PASS" signature="test_deliveryaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury.testcases.TC7@62fdb4a6]" name="test_deliveryaddress" duration-ms="4250" started-at="2020-06-22T06:48:15 BST" finished-at="2020-06-22T06:48:19 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prime Minister Office (PMO)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10 Downing Street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[England]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SW1A 2AA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UNITED KINGDOM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Alert accepted.]]>
+            </line>
+            <line>
+              <![CDATA[Delivery address furnised and 'same as billing address' clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Reservation image obtained and saved.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_deliveryaddress -->
+      </class> <!-- com.mercury.testcases.TC7 -->
+      <class name="com.mercury.testcases.TC6">
+        <test-method status="PASS" signature="test_billingaddress(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mercury.testcases.TC6@b59d31]" name="test_billingaddress" duration-ms="1572" started-at="2020-06-22T06:48:13 BST" finished-at="2020-06-22T06:48:14 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54 Clay Hill]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Two Mile Ash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Milton Keynes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[England]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[MK8 8BL]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[UNITED KINGDOM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Billing address furnised and ticketless travel clicked.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_billingaddress -->
+      </class> <!-- com.mercury.testcases.TC6 -->
+      <class name="com.mercury.basedriver.Basedriver">
+        <test-method status="PASS" signature="basedriver(java.lang.String)[pri:0, instance:com.mercury.basedriver.Basedriver@282003e1]" name="basedriver" is-config="true" duration-ms="13621" started-at="2020-06-22T06:47:43 BST" finished-at="2020-06-22T06:47:56 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser initialised and website opened.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- basedriver -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.mercury.basedriver.Basedriver@282003e1]" name="closeBrowser" is-config="true" duration-ms="2824" started-at="2020-06-22T06:48:24 BST" finished-at="2020-06-22T06:48:27 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mercury.basedriver.Basedriver -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 22 06:47:43 BST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>43 seconds (43993 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mercury.testcases.TC6.test_billingaddress()'><b>test_billingaddress</b><br>Test class: com.mercury.testcases.TC6<br>Parameters: 54 Clay Hill, Two Mile Ash, Milton Keynes, England, MK8 8BL, UNITED KINGDOM<br/>
+<a href="#Output-2015301874" onClick='toggleBox("Output-2015301874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2015301874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2015301874">
+Billing address furnised and ticketless travel clicked.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.mercury.testcases.TC6@b59d31</td></tr>
+<tr>
+<td title='com.mercury.testcases.TC3.test_continueandreserveflights()'><b>test_continueandreserveflights</b><br>Test class: com.mercury.testcases.TC3<br>Parameters: http://newtours.demoaut.com/mercurypurchase.php<br/>
+<a href="#Output-1644236636" onClick='toggleBox("Output-1644236636", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1644236636" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1644236636">
+Reseved flights and navigated to passenger details page.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.mercury.testcases.TC3@76329302</td></tr>
+<tr>
+<td title='com.mercury.testcases.TC5.test_creditcard()'><b>test_creditcard</b><br>Test class: com.mercury.testcases.TC5<br>Parameters: Visa, 012356789, 11, 2009, Gowri, Shanker, Koyada<br/>
+<a href="#Output-1404932042" onClick='toggleBox("Output-1404932042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1404932042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1404932042">
+Credit card details furnised.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.mercury.testcases.TC5@4df828d7</td></tr>
+<tr>
+<td title='com.mercury.testcases.TC7.test_deliveryaddress()'><b>test_deliveryaddress</b><br>Test class: com.mercury.testcases.TC7<br>Parameters: Prime Minister Office (PMO), 10 Downing Street, London, England, SW1A 2AA, UNITED KINGDOM<br/>
+<a href="#Output-957923719" onClick='toggleBox("Output-957923719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-957923719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-957923719">
+Alert accepted.<br/>
+Delivery address furnised and 'same as billing address' clicked.<br/>
+Reservation image obtained and saved.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.mercury.testcases.TC7@62fdb4a6</td></tr>
+<tr>
+<td title='com.mercury.testcases.TC2.test_flight()'><b>test_flight</b><br>Test class: com.mercury.testcases.TC2<br>Parameters: 2, London, November, 11, New York, December, 12, Unified Airlines</td>
+<td></td>
+<td>1</td>
+<td>com.mercury.testcases.TC2@71a794e5</td></tr>
+<tr>
+<td title='com.mercury.testcases.TC1.test_login()'><b>test_login</b><br>Test class: com.mercury.testcases.TC1<br>Parameters: gowrikoyada@gmail.com, test123<br/>
+<a href="#Output-1987360300" onClick='toggleBox("Output-1987360300", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1987360300" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1987360300">
+User logged in successfully.<br/>
+Login screesnshot obtained and saved.<br/>
+Login 'title' validation passed.<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.mercury.testcases.TC1@7fad8c79</td></tr>
+<tr>
+<td title='com.mercury.testcases.TC4.test_passengers()'><b>test_passengers</b><br>Test class: com.mercury.testcases.TC4<br>Parameters: Gowri, Koyada, Hindu, Anish Giritrah, Koyada, Hindu<br/>
+<a href="#Output-520162288" onClick='toggleBox("Output-520162288", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-520162288" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-520162288">
+Passengers(2) details provided.<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.mercury.testcases.TC4@5e25a92e</td></tr>
+<tr>
+<td title='com.mercury.testcases.TC8.test_purchaseandvalidate()'><b>test_purchaseandvalidate</b><br>Test class: com.mercury.testcases.TC8<br>Parameters: http://newtours.demoaut.com/mercurypurchase2.php<br/>
+<a href="#Output-1807176280" onClick='toggleBox("Output-1807176280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1807176280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1807176280">
+Purchase validation is successfully done.<br/>
+Purchase confirmation image obtained and saved.<br/>
+Navigated back to home screen.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.mercury.testcases.TC8@11e21d0e</td></tr>
+</table><p>
+</body>
+</html>
